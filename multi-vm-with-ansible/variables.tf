@@ -27,3 +27,8 @@ variable "ci_ssh_public_key" {
 variable "ci_ssh_private_key" {
   type = string
 }
+
+variable "vm_count" {
+  type    = number
+  default = 3
+}
